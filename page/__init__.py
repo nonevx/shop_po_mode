@@ -7,7 +7,10 @@
 """
 
 # 导包
+import os
 from selenium.webdriver.common.by import By
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 """商城服务器url"""
 url = "http://localhost"

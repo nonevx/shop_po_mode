@@ -21,7 +21,7 @@ class GetLog:
             # 设置级别
             cls.logger.setLevel(logging.INFO)
             # 获取处理器
-            th = logging.handlers.TimedRotatingFileHandler(filename="../log/shop.log",
+            th = logging.handlers.TimedRotatingFileHandler(filename="log/shop.log",
                                                            when="midnight",
                                                            interval=1,
                                                            backupCount=3,
